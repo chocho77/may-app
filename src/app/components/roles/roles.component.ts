@@ -18,6 +18,8 @@ export class RolesComponent {
 
   currentDate : Date = new Date();
 
+  inputType : string = "checkbox";
+
   
 
 }
