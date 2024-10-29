@@ -21,6 +21,16 @@ export class RolesComponent {
 
   inputType : string = "button";
 
+  selectedState:string = "";
+
+  showWelcomeAlert(){
+    alert("Welcome to Angular 18 Tutorial")
+  }
+
+  showMessage(message: string) {
+    alert(message);
+  }
+
   
 
 }

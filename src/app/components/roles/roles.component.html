@@ -21,4 +21,22 @@
     <div class="col-3">
         <input [type]="inputType"/>
     </div>
+    <div class="col-3">
+        <select [(ngModel)]="selectedState">
+            <option value="MH">MH</option>
+            <option value="MP">MP</option>
+             <option value="Goa">Goa</option>
+        </select>
+    </div>
 </div>  
+<div class="row">
+    <div class="col-3">
+        <button class="btn btn-success" (click)="showWelcomeAlert()">Show Alert</button>
+    </div>
+    <div class="col-3">
+    <button class="btn btn-success" (click)="showMessage('Show Dot Net Message')">Show Dot Net Msg</button>
+    </div>
+    <div class="col-3">
+        <button class="btn btn-success" (click)="showMessage('Show React Message')">Show React Msg</button>
+    </div>
+</div>
